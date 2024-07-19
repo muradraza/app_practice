@@ -32,6 +32,16 @@ function Nav() {
                 </Link>
               </li>
               <li class="nav-item">
+                <Link class="nav-link" to="/showcase">
+                  Showcase
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/testimonials">
+                  Testimonials
+                </Link>
+              </li>
+              <li class="nav-item">
                 <Link class="nav-link" to="/about">
                   About
                 </Link>

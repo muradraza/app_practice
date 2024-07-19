@@ -7,6 +7,8 @@ import Index from "./Pages/Index";
 import About from "./Pages/About";
 import { Route, Routes } from "react-router-dom";
 import Contact from "./Pages/Contact";
+import Showcase from "./Pages/Showcase";
+import Testmonials from "./Pages/Testmonials";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/showcase" element={<Showcase />} />
+        <Route path="/testimonials" element={<Testmonials />} />
       </Routes>
       <Footer />
     </>

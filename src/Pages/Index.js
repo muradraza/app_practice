@@ -3,7 +3,6 @@ import Hero from "../Components/Hero";
 import Servicesgrid from "../Components/Servicesgrid";
 import About from "../Components/About";
 import Testimonial from "../Components/Testimonial";
-import Footer from "../Components/Footer";
 import Approch from "../Components/Approch";
 import { Helmet } from "react-helmet";
 
