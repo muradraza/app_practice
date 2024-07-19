@@ -12,6 +12,7 @@ function Index() {
     <>
       <Helmet>
         <title>Digital</title>
+        <meta />
       </Helmet>
       <Hero />
       <Servicesgrid />
