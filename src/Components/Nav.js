@@ -84,7 +84,10 @@ function Nav() {
                 </ul>
               </li> */}
             </ul>
-            <form class="d-flex">
+            <button type="button" class="herobtn btn bg-primary">
+              Primary
+            </button>
+            {/* <form class="d-flex">
               <input
                 class="form-control me-2"
                 type="search"
@@ -94,7 +97,7 @@ function Nav() {
               <button class="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
       </nav>
