@@ -114,9 +114,9 @@ function Contactsec() {
                       <p class="mb-0">
                         <a
                           class="link-secondary text-decoration-none"
-                          href="mailto:query@teecubesolutionsltd.com"
+                          href="mailto:info@teecubesolutionsltd.com"
                         >
-                          query@teecubesolutionsltd.com
+                          info@teecubesolutionsltd.com
                         </a>
                       </p>
                     </div>
@@ -126,7 +126,7 @@ function Contactsec() {
             </div>
             <div class="col-12 col-lg-6">
               <div class="bg-white border rounded shadow-sm overflow-hidden">
-                <form action="#!">
+                <form action="https://formspree.io/f/xyzgkgve" method="POST">
                   <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                     <div class="col-12">
                       <label for="fullname" class="form-label">
@@ -137,7 +137,6 @@ function Contactsec() {
                         class="form-control"
                         id="fullname"
                         name="fullname"
-                        value=""
                         required
                       />
                     </div>
@@ -163,7 +162,6 @@ function Contactsec() {
                           class="form-control"
                           id="email"
                           name="email"
-                          value=""
                           required
                         />
                       </div>
@@ -190,7 +188,6 @@ function Contactsec() {
                           class="form-control"
                           id="phone"
                           name="phone"
-                          value=""
                         />
                       </div>
                     </div>
@@ -203,7 +200,6 @@ function Contactsec() {
                         class="form-control"
                         id="subject"
                         name="subject"
-                        value=""
                         required
                       />
                     </div>

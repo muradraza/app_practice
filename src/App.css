@@ -1,4 +1,5 @@
 @import "https://unpkg.com/open-props";
+
 .App {
   text-align: center;
 }
@@ -8,7 +9,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.tel {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+.tel:hover {
+  color: #fff;
+}
 .hero {
   background-image: url("../public/bannner.jpg");
   width: 100%;
@@ -187,11 +195,48 @@
 
 /* End Approch Sec */
 
+/* carousel */
+#quote-carousel {
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+  text-align: center;
+}
+/* indicator position */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: -10px;
+  margin-right: -19px;
+  color: #60dfe5;
+}
+/* indicator color */
+#quote-carousel .carousel-indicators li {
+  background: #333333;
+  height: 4px;
+  width: 50px;
+}
+/* active indicator */
+#quote-carousel .carousel-indicators .active {
+  background: #60dfe5;
+  height: 4x;
+  width: 50px;
+  margin-bottom: 1px;
+}
+/* typography */
+h1 {
+  text-align: center;
+  margin-bottom: -20px !important;
+}
+p {
+  font-style: italic;
+}
+
 /* About Page */
 
 .about {
   display: flex;
   padding-top: 100px;
+
   .about1,
   .about2 {
     width: 48%;

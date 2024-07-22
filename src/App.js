@@ -9,6 +9,7 @@ import { Route, Routes } from "react-router-dom";
 import Contact from "./Pages/Contact";
 import Showcase from "./Pages/Showcase";
 import Testmonials from "./Pages/Testmonials";
+import Shopifydevelopment from "./Pages/Shopifydevelopment";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/showcase" element={<Showcase />} />
         <Route path="/testimonials" element={<Testmonials />} />
+        <Route path="/shopifydevelopment" element={<Shopifydevelopment />} />
       </Routes>
       <Footer />
     </>

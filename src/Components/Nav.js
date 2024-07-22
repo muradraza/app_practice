@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -32,26 +33,11 @@ function Nav() {
                 </Link>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" to="/showcase">
-                  Showcase
-                </Link>
-              </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/testimonials">
-                  Testimonials
-                </Link>
-              </li>
-              <li class="nav-item">
                 <Link class="nav-link" to="/about">
                   About
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/contact">
-                  Contact
-                </Link>
-              </li>
-              {/* <li class="nav-item dropdown">
+              <li class="nav-item dropdown">
                 <Link
                   class="nav-link dropdown-toggle"
                   href="#"
@@ -60,12 +46,12 @@ function Nav() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Dropdown
+                  Services
                 </Link>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <Link class="dropdown-item" href="#">
-                      Action
+                    <Link class="dropdown-item" to={"/shopifydevelopment"}>
+                      Shopify Development
                     </Link>
                   </li>
                   <li>
@@ -82,19 +68,29 @@ function Nav() {
                     </Link>
                   </li>
                 </ul>
-              </li> */}
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/showcase">
+                  Showcase
+                </Link>
+              </li>
+              <li class="nav-item">
+                <Link class="nav-link" to="/testimonials">
+                  Testimonials
+                </Link>
+              </li>
+
+              <li class="nav-item">
+                <Link class="nav-link" to="/contact">
+                  Contact
+                </Link>
+              </li>
             </ul>
-            <form class="d-flex">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <button type="button" class="btn btn-primary">
+              <a className="tel" href="tel: 03322082393">
+                +92 332 2082 393
+              </a>
+            </button>
           </div>
         </div>
       </nav>

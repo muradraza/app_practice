@@ -5,6 +5,7 @@ import About from "../Components/About";
 import Testimonial from "../Components/Testimonial";
 import Approch from "../Components/Approch";
 import { Helmet } from "react-helmet";
+import Showcases from "../Components/Showcases";
 
 function Index() {
   return (
@@ -52,6 +53,7 @@ function Index() {
         </button>
       </div>
 
+      <Showcases />
       <Testimonial />
     </>
   );
