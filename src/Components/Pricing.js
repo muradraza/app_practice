@@ -107,7 +107,6 @@ function Pricing() {
                 <li> Complete Deployment</li>
                 <li> 30 Days Free Maintenance (Post-launch support)</li>
                 <li>
-                  {" "}
                   Industry Specified Team of Expert Designers and Developers
                   Dedicated Account Manager 24/7 Customer Support Unlimited
                   Revisions 100% Satisfaction Guarantee 100% Unique Design
