@@ -5,7 +5,11 @@ import About from "../Components/About";
 import Testimonial from "../Components/Testimonial";
 import Approch from "../Components/Approch";
 import { Helmet } from "react-helmet";
+<<<<<<< HEAD
 import Showcases from "../Components/Showcases";
+=======
+import Popmodal from "../Components/Popmodal";
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
 
 function Index() {
   return (
@@ -53,7 +57,58 @@ function Index() {
         </button>
       </div>
 
+<<<<<<< HEAD
       <Showcases />
+=======
+      <div className="showcase">
+        <p>OUR PROJECTS</p>
+        <h3>
+          Check out some of our awesome projects with creative ideas and great
+          design.
+        </h3>
+      </div>
+
+      <div className="project pro1">
+        <div className="proimg">
+          <img src="/web.jpg" />
+        </div>
+        <div className="protxt">
+          <h5>Headind</h5>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+
+      <div className="project2 pro1">
+        <div className="proimg">
+          <img src="/web.jpg" />
+        </div>
+        <div className="protxt">
+          <h5>Headind</h5>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+      <Popmodal />
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
       <Testimonial />
     </>
   );

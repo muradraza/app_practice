@@ -14,6 +14,10 @@
   width: 48%;
   margin: 10px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
 @media screen and (max-width: 480px) {
   .ttestimonial {
     width: 90%;
@@ -23,6 +27,7 @@
     padding: 50px 0;
     justify-content: space-evenly;
   }
+<<<<<<< HEAD
   .testi {
     border: 1px solid #b2beb5;
     box-shadow: 0px 0px 8px #e5e4e2;
@@ -30,5 +35,10 @@
     padding: 15px 25px;
     width: 90%;
     margin: 10px;
+=======
+
+  .testi {
+    width: 100%;
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
   }
 }

@@ -86,11 +86,28 @@ function Nav() {
                 </Link>
               </li>
             </ul>
+<<<<<<< HEAD
             <button type="button" class="btn btn-primary">
               <a className="tel" href="tel: 03322082393">
                 +92 332 2082 393
               </a>
             </button>
+=======
+            <button type="button" class="herobtn btn bg-primary">
+              Primary
+            </button>
+            {/* <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form> */}
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
           </div>
         </div>
       </nav>

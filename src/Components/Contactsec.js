@@ -1,6 +1,27 @@
 import React from "react";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 function Contactsec() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_x6xjw3p", "template_78aduin", form.current, {
+        publicKey: "vO5DFRA2igDXUZN_n",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+  };
+
   return (
     <>
       <section class="bg-light py-3 py-md-5">
@@ -126,7 +147,11 @@ function Contactsec() {
             </div>
             <div class="col-12 col-lg-6">
               <div class="bg-white border rounded shadow-sm overflow-hidden">
+<<<<<<< HEAD
                 <form action="https://formspree.io/f/xyzgkgve" method="POST">
+=======
+                <form ref={form} onSubmit={sendEmail}>
+>>>>>>> 7cf77d0d22e2dcfce04ff8d625eaa89687380b82
                   <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
                     <div class="col-12">
                       <label for="fullname" class="form-label">

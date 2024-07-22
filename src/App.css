@@ -411,7 +411,18 @@ p {
     font-size: 18px;
     padding: 0 5px;
   }
-
+  /* About page */
+  .about {
+    display: flex;
+    padding-top: 100px;
+    flex-wrap: wrap;
+    .about1,
+    .about2 {
+      width: 90%;
+      padding: 2%;
+    }
+  }
+  /* About page */
   /* Footer */
   .foot {
     display: flex;
